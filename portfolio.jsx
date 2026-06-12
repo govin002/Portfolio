@@ -215,15 +215,15 @@ function Hero({ onHireMe }) {
             onMouseEnter={() => setIsNecHover(true)}
             onMouseLeave={() => setIsNecHover(false)}
             className="transition-all duration-300 group relative inline-block px-3 py-1 border border-amber-500/20"
-            style={{ 
-              color: isNecHover ? PHOSPHOR : AMBER, 
+            style={{
+              color: isNecHover ? PHOSPHOR : AMBER,
               backgroundColor: isNecHover ? AMBER + "99" : "transparent",
-              textDecoration: "none" 
+              textDecoration: "none"
             }}>
             <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span>
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} />
           </a>
-          <span className="mx-3 opacity-30">|</span> 
+          <span className="mx-3 opacity-30">|</span>
           <span className="opacity-70 italic">2024 Batch</span>
         </div>
 
@@ -232,7 +232,7 @@ function Hero({ onHireMe }) {
             style={{ borderColor: PHOSPHOR, color: PHOSPHOR, boxShadow: `0 0 12px ${PHOSPHOR}44` }}>
             {">> HIRE ME"}
           </button>
-          <a href="/assets/Govindaapshrestha.pdf" download
+          <a href={`${import.meta.env.BASE_URL}Govindaapshrestha.pdf`} download
             className="font-mono px-6 py-3 border text-sm transition-all duration-200 hover:scale-105"
             style={{ borderColor: AMBER, color: AMBER, boxShadow: `0 0 12px ${AMBER}44`, textDecoration: "none" }}>
             {"[↓] RESUME.PDF"}
@@ -549,7 +549,7 @@ function Contact({ onOpenTerminal }) {
               </div>
             </a>
           ))}
-          <a href="/assets/Govindaapshrestha.pdf" download
+          <a href={`${import.meta.env.BASE_URL}Govindaapshrestha.pdf`} download
             className="flex items-center gap-4 border-2 p-4 transition-all duration-200 hover:scale-[1.02] block relative overflow-hidden group"
             style={{ borderColor: AMBER + "40", textDecoration: "none", background: "#181818" }}>
             <div className="absolute inset-0 opacity-0 group-hover:opacity-10 transition-opacity" style={{ background: AMBER }} />
