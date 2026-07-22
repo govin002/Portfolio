@@ -417,7 +417,7 @@ const projects = [
     desc: "A modern, user-friendly complete system for managing inventory operations and others data.",
     tags: ["React", "JavaScript", "UI/UX", "SQL Lite"],
     status: "COMPLETED",
-    link: "https://https://github.com/govin002/Inventory",
+    link: "https://github.com/govin002/Inventory",
   },
   {
     title: "Labro",
