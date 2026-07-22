@@ -497,7 +497,7 @@ function Projects() {
           style={{ borderColor: "#39FF1430", color: "#666", textDecoration: "none" }}
           onMouseEnter={e => { e.currentTarget.style.borderColor = PHOSPHOR; e.currentTarget.style.color = PHOSPHOR; }}
           onMouseLeave={e => { e.currentTarget.style.borderColor = "#39FF1430"; e.currentTarget.style.color = "#666"; }}>
-          {">> view all 28 repos on GitHub"}
+          {">> view all repos on GitHub"}
         </a>
       </div>
     </Section>
