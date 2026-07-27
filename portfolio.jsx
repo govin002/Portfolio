@@ -514,7 +514,7 @@ function Contact({ onOpenTerminal }) {
       </p>
       <div className="grid md:grid-cols-2 gap-10 max-w-4xl">
         <div className="space-y-4">
-          <p className="font-mono text-xs tracking-widest mb-4" style={{ color: "#555" }}>// DIRECT CHANNELS</p>
+          
           {[
             {
               icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>,
