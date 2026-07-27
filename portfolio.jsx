@@ -391,7 +391,7 @@ function Skills() {
       </div>
 
       <p className="font-mono text-xs mt-6" style={{ color: "#444" }}>
-        // hover over a card to highlight
+     
       </p>
     </Section>
   );
