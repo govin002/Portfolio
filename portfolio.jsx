@@ -210,7 +210,7 @@ function Hero({ onHireMe }) {
           style={{ color: PHOSPHOR, textShadow: `0 0 15px ${PHOSPHOR}33` }}>
           Govinda Prasad Shrestha
         </h1>
-        {/* <div className="font-mono text-sm md:text-base mb-10" style={{ color: "#888" }}>
+        <div className="font-mono text-sm md:text-base mb-10" style={{ color: "#888" }}>
            <a href="https://nec.gov.np/registration/96724" target="_blank" rel="noopener noreferrer" 
             onMouseEnter={() => setIsNecHover(true)}
             onMouseLeave={() => setIsNecHover(false)}
@@ -220,12 +220,12 @@ function Hero({ onHireMe }) {
               backgroundColor: isNecHover ? AMBER + "99" : "transparent",
               textDecoration: "none"
             }}>
-            <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span>
+            {/* <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span> */}
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} />
           </a>
           <span className="mx-3 opacity-30">|</span>
           <span className="opacity-70 italic">2024 Batch</span>
-        </div> */}
+        </div> 
 
         <div className="flex flex-wrap justify-center gap-4">
           <button onClick={onHireMe} className="font-mono px-6 py-3 border text-sm transition-all duration-200 hover:scale-105"
