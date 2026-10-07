@@ -211,7 +211,7 @@ function Hero({ onHireMe }) {
           Govinda Prasad Shrestha
         </h1>
         <div className="font-mono text-sm md:text-base mb-10" style={{ color: "#888" }}>
-          <a href="https://nec.gov.np/registration/96724" target="_blank" rel="noopener noreferrer"
+          {/* <a href="https://nec.gov.np/registration/96724" target="_blank" rel="noopener noreferrer" */}
             onMouseEnter={() => setIsNecHover(true)}
             onMouseLeave={() => setIsNecHover(false)}
             className="transition-all duration-300 group relative inline-block px-3 py-1 border border-amber-500/20"
