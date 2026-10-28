@@ -238,7 +238,6 @@ function Hero({ onHireMe }) {
             {"[↓] RESUME.PDF"}
           </a>
         </div>
-      </div>
     </Section>
   );
 }
