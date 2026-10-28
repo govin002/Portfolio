@@ -221,9 +221,7 @@ function Hero({ onHireMe }) {
               textDecoration: "none"
             }}>
             <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span> 
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} >
-          </a>
-                  </div>
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} ></div>
           <span className="mx-3 opacity-30">|</span>
           <span className="opacity-70 italic">2024 Batch</span>
         </div> 
