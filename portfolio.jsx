@@ -185,7 +185,7 @@ function Nav({ active }) {
             className="w-1.5 h-1.5 rounded-full transition-all"
             style={{ background: active === l ? PHOSPHOR : "#444", boxShadow: active === l ? `0 0 8px ${PHOSPHOR}` : "none" }} />
         ))}
-  
+      </div>
     </nav>
   );
 }
@@ -211,7 +211,7 @@ function Hero({ onHireMe }) {
           Govinda Prasad Shrestha
         </h1>
         <div className="font-mono text-sm md:text-base mb-10" style={{ color: "#888" }}>
-           <a href="https://nec.gov.np/registration/96724" target="_blank" rel="noopener noreferrer" 
+          <a href="https://nec.gov.np/registration/96724" target="_blank" rel="noopener noreferrer"
             onMouseEnter={() => setIsNecHover(true)}
             onMouseLeave={() => setIsNecHover(false)}
             className="transition-all duration-300 group relative inline-block px-3 py-1 border border-amber-500/20"
@@ -219,13 +219,13 @@ function Hero({ onHireMe }) {
               color: isNecHover ? PHOSPHOR : AMBER,
               backgroundColor: isNecHover ? AMBER + "99" : "transparent",
               textDecoration: "none"
-            }}> </a>
-            <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span> 
-            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} ></div>
+            }}>
+            <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span>
+            <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} />
+          </a>
           <span className="mx-3 opacity-30">|</span>
           <span className="opacity-70 italic">2024 Batch</span>
-          
-        </div> 
+        </div>
 
         <div className="flex flex-wrap justify-center gap-4">
           <button onClick={onHireMe} className="font-mono px-6 py-3 border text-sm transition-all duration-200 hover:scale-105"
@@ -238,6 +238,7 @@ function Hero({ onHireMe }) {
             {"[↓] RESUME.PDF"}
           </a>
         </div>
+      </div>
     </Section>
   );
 }
@@ -390,7 +391,7 @@ function Skills() {
       </div>
 
       <p className="font-mono text-xs mt-6" style={{ color: "#444" }}>
-     
+        // hover over a card to highlight
       </p>
     </Section>
   );
@@ -408,15 +409,15 @@ const projects = [
     title: "SYNC_SSH",
     desc: "Open source tool for SSH synchronization, ensuring your configuration is consistent across environments.",
     tags: ["TypeScript", "SSH", "Sync"],
-    status: "PROTOTYPE",
+    status: "COMPLETED",
     link: "https://github.com/govin002/SYNC_SSH",
   },
   {
-    title: "Inventory",
-    desc: "A modern, user-friendly complete system for managing inventory operations and others data.",
-    tags: ["React", "JavaScript", "UI/UX", "SQL Lite"],
+    title: "Hospital-Management-System",
+    desc: "A modern, user-friendly frontend for managing hospital operations and patient data.",
+    tags: ["React", "JavaScript", "UI/UX"],
     status: "COMPLETED",
-    link: "https://github.com/govin002/Inventory",
+    link: "https://github.com/govin002/Hospital-Management-System",
   },
   {
     title: "Labro",
@@ -513,7 +514,7 @@ function Contact({ onOpenTerminal }) {
       </p>
       <div className="grid md:grid-cols-2 gap-10 max-w-4xl">
         <div className="space-y-4">
-          
+          <p className="font-mono text-xs tracking-widest mb-4" style={{ color: "#555" }}>// DIRECT CHANNELS</p>
           {[
             {
               icon: <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /><polyline points="22,6 12,13 2,6" /></svg>,
