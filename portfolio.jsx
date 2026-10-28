@@ -220,7 +220,7 @@ function Hero({ onHireMe }) {
               backgroundColor: isNecHover ? AMBER + "99" : "transparent",
               textDecoration: "none"
             }}>
-            {/* <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span> */}
+            <span className="relative z-10 font-bold tracking-widest">COMPUTER ENGINEER</span> 
             <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity blur-md" style={{ background: AMBER + "44" }} >
           </a>
                   </div>
